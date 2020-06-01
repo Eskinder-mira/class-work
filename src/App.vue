@@ -14,7 +14,7 @@
     
     <main role="main" class="inner cover">
       <div class="px-4  my-4 bg-white" id="headstyle">
-      <h1 id="metal" class="cover-heading mt-5">Eskindir Sophonias</h1>
+      <h1 id="metal" class="cover-heading mt-3">Eskindir Sophonias</h1>
       <p class="text-dark">
         Place du tunnel 5 <br>
         1005 Lausanne <br>
@@ -23,15 +23,15 @@
       </p></div>
       <h2 class="px-4 bg-white text-dark" style="border-radius: 2px;"> {{ $t('experience') }} </h2>
       <p> <b>{{ $t('experience.fablab.time') }}:</b> {{ $t('experience.fablab.description') }}</p>
-      <p> <b>2018: Assistant au département électricité</b>, Festival Image/Vevey</p>
-      <p> <b>2017: Assistant de laboratoire</b>, Tests sur les nouvelles machines à thé et à café, Nestlé/Orbe</p>
-      <p> <b>2010-12: Employé au sein de l'entreprise familiale</b>, Addis Ababa, Ethiopie</p>
-      <h2 class="px-4 bg-white text-dark" style="border-radius: 2px;"> Education </h2>
-      <p> <b>2019: Powercoders-Lausanne</b>, Programmation Internet (Front-End), Lausanne</p>
-      <p> <b>2017: Cap Horizon</b>, Cours de français, maths, Microsoft Word, Excel et Powerpoint, Lausanne</p>
-      <p> <b>2016: Pôle Sud (Centre socioculturel de l’USV)</b> Cours de français, Lausanne</p>
-      <p> <b>2013-15: Evam</b> Cours de français, Renens</p>
-      <p> <b>1999-08: École obligatoire</b>, Addis Ababa, Ethiopie</p>
+      <p> <b>2018:{{ $t('assistant.departement.electricite')}}</b>,{{ $t('Festival.Vevey')}}</p>
+       <p> <b>2017:{{ $t('Assistant.laboratoire')}}</b>,{{ $t('Tests.machines')}}</p>
+        <p> <b>2010-12:{{ $t('Employe')}}</b>,{{ $t('Addis.Ababa')}}</p>
+      <h2 class="px-4 bg-white text-dark" style="border-radius: 2px;"> {{ $t('Education')}} </h2>
+       <p> <b>2019:{{ $t('Powercoders')}}</b>,{{ $t('Programmation.Internet')}}</p>
+       <p> <b>2017:{{ $t('Cap.Horizon')}}</b>,{{ $t('Cours.francais')}}</p>
+      <p><b>2016:{{ $t('Pole.Sud')}}</b>,{{ $t(' Cours.français')}}</p>
+       <p><b>2013-15:{{ $t('Evam')}}</b>,{{ $t('Renens.Cours.français')}}</p>
+       <p><b>2013-15:{{ $t('obligatoire')}}</b>,{{ $t('Ethiopie')}}</p>
       <hr class="my-4">
       <div class="row">
         <div class="side">
@@ -113,13 +113,13 @@
         </div>
       </div>
       <hr class="my-4">
-      <p> Langue maternelle: Amharic</p>
-      <p> Franche:  niveau B1</p>
-      <p> English:   niveau B2</p>
+       <p>{{ $t('Langue.maternelle')}} Amharic</p>
+       <p>{{ $t('France')}}  niveau B1</p>
+       <p>{{ $t('anglais')}}  niveau B2</p>
       <hr class="my-4">
       <div class="my-4">
      <div class="flooter">
-      <h2 >References</h2>
+       <h2>{{ $t('References')}}</h2>
       <p>Christine Theround, Bénévole à Pouvoir d'agir (chrstherond@yahoo.com)</p>
       <p>Daniel Peppicelli, Ingénieur en informatique EPFL (daniel.peppicelli@gmail.com)</p></div></div>
     </main>
